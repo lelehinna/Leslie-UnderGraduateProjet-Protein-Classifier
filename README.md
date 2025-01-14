@@ -37,7 +37,7 @@ Thus our next step is to resample the dataset.
 
 By plotting the label table, we see each class has 271 data. Now we are good to apply algorithms.
 
-<img src="images/ds-04.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
+<img src="images/ds-04.png" alt="ds" style="width: 10%; min-width: 300px; display: block; margin: auto;">
 
 Here I will apply
 
