@@ -22,11 +22,11 @@ This repository presented my undergraduate proect of classifying protens into on
   
 Now the dataset only consist with 1/0, by printing the first few columns, the dataset looks like
 
-<img src="images/ds_02.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
+<img src="images/ds-02.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
 
 By plotting the histogram of the label, we see that the dataset is highly imbalanced.
 
-<img src="images/ds_03.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
+<img src="images/ds-03.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
 
 Thus our next step is to resample the dataset.
 
@@ -37,7 +37,7 @@ Thus our next step is to resample the dataset.
 
 By plotting the label table, we see each class has 271 data. Now we are good to apply algorithms.
 
-<img src="images/ds_04.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
+<img src="images/ds-04.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
 
 Here I will apply
 
@@ -128,7 +128,7 @@ Testing dataset accuracy score:  0.6944444444444444
 
 The StackingClassifier is defined by first choosing 5 base models, then defining the Logistic Regression metal model to combine the predictions obtained from the base models using 5-fold cross-validation. Here I chose 5 base models to be Logistic Regression, Naive Bayes, Random Forest, KNN, and SVC. After evaluating the models using cross-validation, the box plot of the accuracy scores looks like
 
-<img src="images/ds_05.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
+<img src="images/ds-05.png" alt="ds" style="width: 60%; min-width: 300px; display: block; margin: auto;">
 
 From the boxplot, we see Logistic Regression performed the best on the data. The next one is Random Forest Classifier, as we found previously. We see StackingClassfier performed weirdly here. Some records showed a pretty high prediction, while some are low. I think it might due to the high imbalance of the dataset I used to train the model on.
 
