@@ -1,4 +1,4 @@
-# Leslie-UnderGraduateProject-Protein-Classifier
+# UnderGraduateProject-Protein-Classifier
 
 This repository presented my undergraduate proect of classifying protens into one of 15 classes using machine learning models. The project involves steps of Read Protein Dataset, Preprocess Data, Handle Imbalanced Data, Apply Machine Learning Classifers, Stacking.
 
